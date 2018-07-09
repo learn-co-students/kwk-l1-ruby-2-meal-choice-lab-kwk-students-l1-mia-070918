@@ -17,6 +17,17 @@ puts snacks("Swedish fish")
 
 # call your methods here
 
+def breakfast(food="frosted flakes")
+  "Morning is the best time for #{food}"
+end
+
+def lunch(food = "grilled cheese")
+  "Lunch is the best time for #{food}"
+end
+
+def dinner(food="salmon")
+  "Dinner is the best time for #{food}"
+end
 
 # Call your methods without any arguments here
 puts snacks
